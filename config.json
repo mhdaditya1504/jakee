@@ -1,0 +1,74 @@
+
+{
+
+ "Account": {
+     "Username": "13082002",
+     "Password": "acit12345"
+     },
+ "Target Profit": "1000",
+ "Target Win": "10000000",
+ "Lose Target": "0",
+ "Reset If Target Profit": "100000",
+ "Reset If Target win": "1000000",
+ "Interval": "1",
+ "Config": [{
+ 
+
+"Name Bet Set": "1⃣ JACKPOT 500‰",
+     "Base Bet": "0.1",
+     "Max Bet": "OFF",
+     "Chance": "95",
+     "Random Chance": {
+          "Toggle": "OFF",
+          "Min": "9",
+          "Max": "18"
+        },
+     "Bet": {
+          "Bet": "Low",
+          "Hi / Low": {
+              "Toggle": "OFF",
+              "If Lose": "4",
+              "If Win": "1"
+            }
+        },
+     "If Win": "1.12",
+     "If Lose": "1.13",
+     "Reset If Win": "1000",
+     "Reset If Profit": "0.00078",
+     "Interval": "1"
+     },{
+     
+     
+     "Name Bet Set": "3 - Mining Chance 80%",
+     "Base Bet": "0.0001",
+     "Max Bet": "OFF",
+     "Chance": "49.5",
+     "Random Chance": {
+          "Toggle": "OFF",
+          "Min": "5",
+          "Max": "50"
+        },
+     "Bet": {
+          "Bet": "Low",
+          "Hi / Low": {
+              "Toggle": "OFF",
+              "If Lose": "2",
+              "If Win": "1"
+            }
+        },
+     "If Win": "1",
+     "If Lose": "2",
+     "Reset If Win": "1",
+     "Reset If Profit": "OFF",
+     "Interval": "919"
+     }
+  ],
+  "Auto Wd": {
+       "Toggle": "OFF",
+       "If Balance": "10000000000",
+       "Wallet Address": "D71zGvVGfbyNVdRUeCEaEsQidcNomMkNjx",
+       "Amount": "1000000000000"
+      },
+  "User-Agent": "Android Phone / Chrome 65 [Mobile]:Mozilla/5.0 (Linux; Android 8.0; BLA-L29 Build/HUAWEIBLA-L29) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3236.6 Mobile Safari/537.36"
+
+}
